@@ -1,0 +1,4 @@
+Iniciar un script shebang
+#!/usr/bin/env bash
+
+mankier: https://www.mankier.com/?q=%241
