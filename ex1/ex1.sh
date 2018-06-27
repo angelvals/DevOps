@@ -17,7 +17,7 @@ main() {
         cp ${file} ${output}
         echo "Backup created: ${output}"
     else
-        echo "$file no es valido"
+        echo "$file not valid"
         exit 1
     fi
     #si no me da argumentos imprime mensaje
