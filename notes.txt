@@ -4,4 +4,13 @@ Iniciar un script shebang
 ejecutar script remotamente
 curl https://raw.githubusercontent.com/angelvals/DevOps/master/ex1/ex1.sh | bash -s example.txt
 
+fix line endings
+sed -i 's/\r//' ./example.sh
+
+instalar librerias 
+sudo apt-get install youtube-dl
+
+run bash file
+bash ./example.sh
+
 mankier: https://www.mankier.com/?q=%241
