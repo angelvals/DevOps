@@ -1,4 +1,7 @@
 Iniciar un script shebang
 #!/usr/bin/env bash
 
+ejecutar script remotamente
+curl https://raw.githubusercontent.com/angelvals/DevOps/master/ex1/ex1.sh | bash -s example.txt
+
 mankier: https://www.mankier.com/?q=%241
