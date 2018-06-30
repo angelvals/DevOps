@@ -2,7 +2,7 @@
 usage() {
     echo """
     Usage: URL shortener
-    Example: bash ex2.sh Title Artist
+    Example: bash ex4.sh Title Artist
     Output: 
     """
 }
@@ -11,7 +11,7 @@ main() {
     local artist=$2
     local url="http://www.metrolyrics.com/$title-lyrics-$artist.html"
     
-    res=$(curl $url | pup --color --plain ".lyrics-body text{}")
+    res=$(curl $url | pup --color --plain "#lyrics-body-text p text{}")
     echo $res
 }
 main $@
